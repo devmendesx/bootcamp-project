@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(165, 193, 236);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+label,
+p {
+  font-size: 20px;
+}
+.container {
+  width: 720px;
+  margin: auto;
+}
+#cadastroUsers {
+  margin-top: 150px;
+  margin-bottom: 35px;
+  font-size: 3rem;
+}
+#usersSigned {
+  font-size: 2.75rem;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+#formUser {
+  margin-top: 10px;
+}
+.allNames {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.deleteButton {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+}
