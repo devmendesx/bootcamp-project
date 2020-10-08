@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Lista de países</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de Países</h1>
+      <div class="country-container">
+        <div class="country-list">
+          <h5>Países (<span id="countCountries"></span>)</h5>
+          <h6>População total: <span id="totalPopulationList"></span></h6>
+          <div id="tabCountries"></div>
+        </div>
+
+        <div class="country-list">
+          <h5>Países (<span id="countFavoritesCountries"></span>)</h5>
+          <h6>
+            População total: <span id="totalPopulationFavoritesList"></span>
+          </h6>
+          <div id="tabFavoritesCountries"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
